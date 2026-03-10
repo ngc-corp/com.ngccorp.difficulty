@@ -1,4 +1,4 @@
-# NGC Corp. — Difficulty
+# NGC Corp. Difficulty
 
 A [Hytale](https://hytale.com) server plugin that scales damage dealt to players across two independent axes: **mob damage** and **environment damage** (fall, fire, void, drowning, etc.). PvP damage is always left unmodified.
 
