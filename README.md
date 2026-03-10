@@ -1,6 +1,6 @@
 # NGC Corp. Difficulty
 
-A [Hytale](https://hytale.com) server plugin that scales damage dealt to players across two independent axes: **mob damage** and **environment damage** (fall, fire, void, drowning, etc.). PvP damage is always left unmodified.
+A [Hytale](https://hytale.com) server plugin that scales damage dealt to players across three independent axes: **mob damage**, **environment damage** (fire, void, drowning, suffocation, etc.), and **fall damage**. PvP damage is always left unmodified.
 
 Settings persist across restarts and can be changed live — without reloading the server.
 
@@ -8,18 +8,18 @@ Settings persist across restarts and can be changed live — without reloading t
 
 - Four named presets: Normal, Medium, Hard, Nightmare
 - Fine-grained sliders (0.1× – 10×) via an in-game admin UI
-- Independent mob and environment multipliers
+- Independent mob, environment, and fall damage multipliers
 - Zero overhead when both multipliers are 1.0 (vanilla)
 - Config persisted to disk automatically
 
 ## Presets
 
-| Preset    | Mob damage | Environment damage |
-|-----------|:----------:|:------------------:|
-| Normal    | ×1.0       | ×1.0               |
-| Medium    | ×1.5       | ×1.25              |
-| Hard      | ×2.0       | ×1.5               |
-| Nightmare | ×3.0       | ×2.0               |
+| Preset    | Mob damage | Environment damage | Fall damage |
+|-----------|:----------:|:------------------:|:-----------:|
+| Normal    | ×1.0       | ×1.0               | ×1.0        |
+| Medium    | ×1.5       | ×1.25              | ×1.25       |
+| Hard      | ×2.0       | ×1.5               | ×1.75       |
+| Nightmare | ×3.0       | ×2.5               | ×2.0        |
 
 ## Commands
 
