@@ -1,42 +1,42 @@
 <div class="page-overlay" style="layout-mode: centermiddle">
-  <div class="decorated-container" data-hyui-title="Server Difficulty" style="anchor-width: 600;">
+  <div class="decorated-container" data-hyui-title="Server Difficulty" style="anchor-width: 640;">
     <div class="container-title">
       <!-- Title elements -->
     </div>
     <div class="container-contents" style="anchor-height: auto;">
       <!-- Preset buttons -->
-      <p style="anchor-top: 24; anchor-bottom: 8">Presets</p>
-      <div style="flex-direction: row; justify-content: center;">
-          <button id="preset-normal">Normal</button>
-          <button id="preset-medium" style="anchor-left: 8">Medium</button>
-          <button id="preset-hard" style="anchor-left: 8">Hard</button>
-          <button id="preset-nightmare" style="anchor-left: 8">Nightmare</button>
+      <p style="anchor-bottom: 8; font-size: 24;">Presets</p>
+      <div style="flex-direction: row;">
+          <button id="preset-normal" style="flex-weight: 1;">Normal</button>
+          <button id="preset-medium" style="flex-weight: 1; anchor-left: 8">Medium</button>
+          <button id="preset-hard" style="flex-weight: 1; anchor-left: 8">Hard</button>
+          <button id="preset-nightmare" style="flex-weight: 1; anchor-left: 8">Nightmare</button>
       </div>
       <!-- Mob damage -->
-      <p style="anchor-top: 16; anchor-bottom: 8">Mob Damage</p>
+      <p style="anchor-top: 24; anchor-bottom: 8; font-size: 18;">Mob Damage</p>
       <div style="flex-direction: row;">
-          <input type="range" class="float-slider" id="mob-slider" min="0.1" max="10" step="0.1" value="1" style="anchor-min-width: 400" />
-          <p id="mob-label"></p>
+          <input type="range" class="float-slider" id="mob-slider" min="0.1" max="10" step="0.1" value="1" style="flex-weight: 1;" />
+          <p id="mob-label" style="anchor-left: 12"></p>
       </div>
       <!-- Environment damage -->
-      <p style="anchor-top: 16; anchor-bottom: 8">Environment Damage</p>
+      <p style="anchor-top: 16; anchor-bottom: 8; font-size: 18;">Environment Damage</p>
       <div style="flex-direction: row;">
-          <input type="range" class="float-slider" id="env-slider" min="0.1" max="10" step="0.1" value="1" style="anchor-min-width: 400" />
-          <p id="env-label"></p>
+          <input type="range" class="float-slider" id="env-slider" min="0.1" max="10" step="0.1" value="1" style="flex-weight: 1;" />
+          <p id="env-label" style="anchor-left: 12"></p>
       </div>
       <!-- Fall damage -->
-      <p style="anchor-top: 16; anchor-bottom: 8">Fall Damage</p>
+      <p style="anchor-top: 16; anchor-bottom: 8; font-size: 18;">Fall Damage</p>
       <div style="flex-direction: row;">
-          <input type="range" class="float-slider" id="fall-slider" min="0.1" max="10" step="0.1" value="1" style="anchor-min-width: 400" />
-          <p id="fall-label"></p>
+          <input type="range" class="float-slider" id="fall-slider" min="0.1" max="10" step="0.1" value="1" style="flex-weight: 1;" />
+          <p id="fall-label" style="anchor-left: 12"></p>
       </div>
       <!-- Player damage -->
-      <p style="anchor-top: 16; anchor-bottom: 8">Player Damage</p>
+      <p style="anchor-top: 16; anchor-bottom: 8; font-size: 18;">Player Damage</p>
       <div style="flex-direction: row;">
-          <input type="range" class="float-slider" id="player-slider" min="0.1" max="2" step="0.1" value="1" style="anchor-min-width: 400" />
-          <p id="player-label"></p>
+          <input type="range" class="float-slider" id="player-slider" min="0.1" max="2" step="0.1" value="1" style="flex-weight: 1;" />
+          <p id="player-label" style="anchor-left: 12"></p>
       </div>
-      <div style="anchor-top: 16; anchor-bottom: 24; align-items: stretch;">
+      <div style="anchor-top: 32; anchor-bottom: 8;">
         <button id="button-close">OK</button>
       </div>
     </div>
